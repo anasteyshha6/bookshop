@@ -1,0 +1,282 @@
+@import url(./font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body{
+    margin: 0 auto;
+}
+
+a{
+    font-family: 'On';
+    text-decoration: none;
+}
+
+section{
+    background-color: #FFFCF6;
+}
+
+.container_big{
+    width: 1800px;
+    margin: 0 auto;
+}
+
+/*1 блок*/
+
+.container_nav{
+    width: 100%;
+    display: flex;
+    margin-bottom: 133px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotype{
+    width: 50%;
+}
+
+.text_nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_nav a{
+    color: #D62929;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.text_nav .bold_red{
+    font-weight: 700;
+}
+
+.container_main{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 133px;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.head h1{
+    color: #2B46DD;
+    font-weight: 700;
+    font-size: 4.313rem;
+    padding-bottom: 80px;
+}
+
+.head p{
+    color: #2B46DD;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-bottom: 80px;
+}
+
+.button_blue{
+    width: 19%;
+    padding: 20px 45px;
+    background-color: #2B46DD;
+    border-radius: 46px;
+    transition: 0.2s;
+}
+
+.button_blue:hover{
+    transition: 0.2s;
+    background-color: #212f86;
+}
+
+.button_blue a{
+    text-align: center;
+    color: white;
+}
+
+.container_ill{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*2 блок*/
+
+.container_best{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 168px;
+}
+
+.container_best .center{
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.head_black{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.head_black h1{
+    font-size: 3rem;
+    color: black;
+}
+
+.block_books{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.view_all{
+    margin-bottom: 30px;
+}
+
+.view_all p{
+    color: #2B46DD;
+    font-weight: 400;
+    font-size: 1.563rem;
+}
+
+.four_books{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.book{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skin{
+    width: 80%;
+    margin-bottom: 36px;
+}
+
+.about_book{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.author{
+    font-size: 1.563rem;
+    color: #484848;
+    margin-bottom: 5px;
+}
+
+.name{
+    font-size: 1.875rem;
+    color: #484848;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.price{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p{
+    font-size: 1.875rem;
+    color: #EB9A05;
+    font-weight: 700;
+}
+
+/*3 блок*/
+
+.container_akcii{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_akcii{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container_akcii .head_black{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.blue{
+    font-weight: 700;
+    color: #2B46DD;
+}
+
+.container_akcii .head_black h1{
+    margin-bottom: 20px;
+}
+
+.container_akcii .head_black  p{
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.container_akcii .button_blue{
+    width: 17%;
+}
+
+
+
+
+
+
+
