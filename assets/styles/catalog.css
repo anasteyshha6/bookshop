@@ -1,0 +1,246 @@
+@import url(./font.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    font-family: 'On', sans-serif;
+    text-decoration: none;
+}
+
+section {
+    background-color: #FFFCF6;
+}
+
+.container_big {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+/*1 блок*/
+
+.container_nav {
+    width: 100%;
+    display: flex;
+    margin-bottom: 133px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logotype {
+    width: 50%;
+}
+
+.text_nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_nav a {
+    color: #D62929;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.text_nav a:hover {
+    transition: 0.2s;
+    color: #8c0a0a;
+}
+
+.text_nav .bold_red {
+    font-weight: 700;
+}
+
+.block_i {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*2 блок*/
+
+.container_cat {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 168px;
+}
+
+.center {
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.head_black {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: black;
+}
+
+.block_books {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.view_all {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.view_all a {
+    color: black;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.four_books {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.two_books {
+    width: 50%;
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.skin {
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.about_book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.author {
+    font-size: 1.5rem;
+    color: #484848;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: #484848;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p {
+    font-size: 1.875rem;
+    color: #EB9A05;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+/*футер*/
+
+footer {
+    background-color: #2B46DD;
+    padding: 50px 0;
+}
+
+footer a, footer p {
+    color: white;
+}
+
+.container_foot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_foot .center {
+    flex-direction: column;
+}
+
+.main_foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.navigation {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    padding-bottom: 10px;
+    transition: 0.2s;
+}
+
+.navigation p {
+    padding-bottom: 10px;
+}
+
+.navigation a:hover {
+    transition: 0.2s;
+    color: #9b9b9b;
+}
+
+.icons {
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+}
