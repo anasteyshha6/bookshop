@@ -42,6 +42,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 }
 
 .logotype{
@@ -107,7 +108,10 @@ section{
 }
 
 .button_blue{
-    width: 19%;
+    width: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px 45px;
     background-color: #2B46DD;
     border-radius: 46px;
@@ -120,6 +124,7 @@ section{
 }
 
 .button_blue a{
+    font-size: 1.4rem;
     text-align: center;
     color: white;
 }
@@ -152,9 +157,6 @@ section{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-}
-
-.head_black h1{
     font-size: 3rem;
     color: black;
 }
@@ -168,6 +170,9 @@ section{
 }
 
 .view_all{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
     margin-bottom: 30px;
 }
 
@@ -186,7 +191,7 @@ section{
 }
 
 .book{
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,12 +199,12 @@ section{
 }
 
 .skin{
-    width: 80%;
+    width: 100%;
     margin-bottom: 36px;
 }
 
 .about_book{
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +225,7 @@ section{
 }
 
 .price{
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,7 +239,7 @@ section{
 
 /*3 блок*/
 
-.container_akcii{
+.container_discount{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -242,14 +247,7 @@ section{
     margin-bottom: 168px;
 }
 
-.block_akcii{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.container_akcii .head_black{
+.container_discount .head_black{
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -262,21 +260,107 @@ section{
     color: #2B46DD;
 }
 
-.container_akcii .head_black h1{
-    margin-bottom: 20px;
-}
-
-.container_akcii .head_black  p{
-    font-size: 2.5rem;
+.black_p{
+    font-size: 2rem;
     margin-bottom: 60px;
 }
 
-.container_akcii .button_blue{
-    width: 17%;
+/*4 блок*/
+
+.container_genre{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
 }
 
+.genre{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.genre img{
+    width: 100%;
+}
 
+.red_but{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D62929;
+    padding: 15px 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.blue_but{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B46DD;
+    padding: 15px 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*5 блок*/
+
+.container_address{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
+}
+
+.address{
+    width: 100%;
+    display: flex;
+}
+
+.contacts{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts .head_black{
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.carts{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.cart_con{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.cart_con p{
+    font-size: 2rem;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+/*футер*/
 
 
 
