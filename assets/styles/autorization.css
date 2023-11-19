@@ -1,0 +1,95 @@
+@import url(./font.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    font-family: 'On', sans-serif;
+    text-decoration: none;
+}
+
+section {
+    background-color: #2B46DD;
+}
+
+.container_big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1800px;
+    height: 1080px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/*1 блок*/
+
+.container_form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 70px;
+    padding: 30px 20px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2B46DD;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+
+.str{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 45px;
+    border: #2B46DD solid 2px;
+    padding: 15px 30px;
+    color: #2B46DD;
+    margin-bottom: 30px;
+}
+
+.button_blue {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: #2B46DD;
+    border-radius: 46px;
+    transition: 0.2s;
+    margin-bottom: 30px;
+}
+
+.button_blue:hover {
+    transition: 0.2s;
+    background-color: #212f86;
+}
+
+.button_blue a {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+}
+
+.reg{
+    text-decoration: underline;
+}
