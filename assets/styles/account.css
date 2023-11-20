@@ -1,0 +1,282 @@
+@import url(./font.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    font-family: 'On', sans-serif;
+    text-decoration: none;
+}
+
+section {
+    background-color: #FFFCF6;
+}
+
+.container_big {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+/*1 блок*/
+
+.container_nav {
+    display: flex;
+    margin-bottom: 133px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logotype {
+    width: 50%;
+}
+
+.text_nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_nav a {
+    color: #D62929;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.text_nav a:hover {
+    transition: 0.2s;
+    color: #8c0a0a;
+}
+
+/*2 блок*/
+
+.container_acc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 133px;
+}
+
+.center {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head_black {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: black;
+}
+
+.block_ab{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 133px;
+}
+
+.block_acc{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.str{
+    font-size: 1.8rem;
+    border-bottom: #8c0a0a solid 2px;
+    padding: 25px 280px 25px 0;
+    background-color: #FFFCF6;
+}
+
+.text_black {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 50px;
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+}
+
+.block_bas{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+}
+
+.two_books{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skin img {
+    width: 250px;
+    height: 400px;
+}
+
+.about_book {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+.author {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #484848;
+    margin-bottom: 5px;
+}
+
+.name {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #484848;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p {
+    font-size: 1.875rem;
+    color: #EB9A05;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.pay{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.pay .text_black{
+    padding-bottom: 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2B46DD;
+}
+
+.button_blue {
+    width: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 45px;
+    background-color: #2B46DD;
+    border-radius: 46px;
+    transition: 0.2s;
+}
+
+.button_blue:hover {
+    transition: 0.2s;
+    background-color: #212f86;
+}
+
+.button_blue a {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+}
+
+/*футер*/
+
+footer {
+    background-color: #2B46DD;
+    padding: 50px 0;
+}
+
+footer a, footer p {
+    color: white;
+}
+
+.container_foot {
+    /*width: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_foot .center {
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.navigation {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    padding-bottom: 10px;
+    transition: 0.2s;
+}
+
+.navigation p {
+    padding-bottom: 10px;
+}
+
+.navigation a:hover {
+    transition: 0.2s;
+    color: #9b9b9b;
+}
+
+.icons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
