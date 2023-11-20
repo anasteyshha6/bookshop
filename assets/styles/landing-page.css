@@ -37,7 +37,6 @@ section {
 }
 
 .nav {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +48,7 @@ section {
 }
 
 .text_nav {
-    width: 40%;
+    width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -364,7 +363,7 @@ section {
 }
 
 .contacts {
-    width: 45%;
+    width: 700px;
     display: flex;
     flex-direction: column;
 }
@@ -399,9 +398,10 @@ section {
     margin-right: 30px;
 }
 
-/*.container_address .container_ill img{*/
-/*    width: 700px;*/
-/*}*/
+.container_address .container_ill{
+    width: 700px;
+}
+
 
 /*футер*/
 
@@ -438,7 +438,7 @@ footer a, footer p {
 }
 
 .navigation {
-    width: 15%;
+    width: 350px;
     display: flex;
     flex-direction: column;
 }
@@ -458,7 +458,7 @@ footer a, footer p {
 }
 
 .icons {
-    width: 10%;
+    width: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -485,6 +485,60 @@ footer a, footer p {
 
     .author{
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container_big{
+        width: 780px;
+    }
+
+    .center{
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_best .center{
+        width: 680px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .name{
+        font-size: 1rem;
+    }
+
+    .author{
+        font-size: 1rem;
+    }
+
+    .price p {
+        font-size: 1.1rem;
+    }
+
+    .red_but{
+        font-size: 1rem;
+    }
+
+    .blue_but{
+        font-size: 1rem;
+    }
+
+    .address{
+        width: 680px;
+    }
+
+    .black_p{
+        font-size: 1.5rem;
+    }
+
+    .container_address .container_ill img {
+        width: 400px;
     }
 }
 
@@ -603,6 +657,10 @@ footer a, footer p {
 
     .address {
         flex-direction: column;
+    }
+
+    .carts{
+        width: 400px;
     }
 
     .contacts {
