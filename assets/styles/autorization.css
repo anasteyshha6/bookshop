@@ -33,7 +33,7 @@ section {
 /*1 блок*/
 
 .container_form{
-    width: 30%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,4 +91,240 @@ section {
 
 .reg{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1440px) {
+    .container_big {
+        width: 1320px;
+    }
+
+    .center{
+        width: 920px;
+    }
+
+    .container_best .center{
+        width: 920px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        font-size: 1.3rem;
+    }
+
+    .author{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container_big{
+        width: 780px;
+    }
+
+    .center{
+        width: 680px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_best .center{
+        width: 680px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .name{
+        font-size: 1rem;
+    }
+
+    .author{
+        font-size: 1rem;
+    }
+
+    .price p {
+        font-size: 1.1rem;
+    }
+
+    .red_but{
+        font-size: 1rem;
+    }
+
+    .blue_but{
+        font-size: 1rem;
+    }
+
+    .address{
+        width: 680px;
+    }
+
+    .black_p{
+        font-size: 1.5rem;
+    }
+
+    .container_address .container_ill img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container_big {
+        width: 440px;
+    }
+
+    .center {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_nav {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .text_nav a {
+        font-size: 1.7rem;
+        padding-bottom: 10px;
+    }
+
+    .container_head {
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .head h1 {
+        text-align: center;
+        font-size: 3rem;
+        padding-bottom: 40px;
+    }
+
+    .head p {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .container_ill {
+        width: 100%;
+    }
+
+    .container_ill img {
+        width: 100%;
+    }
+
+    .head_black {
+        text-align: center;
+    }
+
+    .view_all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .view_all a {
+        font-size: 1.2rem;
+    }
+
+    .four_books {
+        flex-direction: column;
+    }
+
+    .book {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .author {
+        font-size: 1.2rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .price p {
+        font-size: 1.5rem;
+    }
+
+    .container_discount .block_discount {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .black_p {
+        text-align: center;
+    }
+
+    .container_genre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .genre {
+        width: 70%;
+    }
+
+    .address {
+        flex-direction: column;
+    }
+
+    .carts{
+        width: 400px;
+    }
+
+    .contacts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts .head_black {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main_foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navigation {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .icons {
+        width: 200px;
+        margin-top: 30px;
+    }
+
 }
