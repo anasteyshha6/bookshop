@@ -130,51 +130,45 @@ section {
 .four_books {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
-
-}
-
-.two_books {
-    width: 50%;
-    display: flex;
     margin-bottom: 40px;
 
 }
 
 .book {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-right: 40px;
 }
 
-.skin {
-    width: 100%;
-    margin-bottom: 36px;
+.skin img {
+    width: 250px;
+    height: 400px;
 }
 
 .about_book {
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 36px;
 }
 
 .author {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
     color: #484848;
     margin-bottom: 5px;
 }
 
 .name {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
     color: #484848;
     font-weight: 700;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 .price {
