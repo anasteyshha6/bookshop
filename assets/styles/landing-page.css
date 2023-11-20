@@ -111,14 +111,14 @@ section {
 .head h1 {
     color: #2B46DD;
     font-weight: 700;
-    font-size: 4.313rem;
+    font-size: 3rem;
     padding-bottom: 80px;
 }
 
 .head p {
     color: #2B46DD;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding-bottom: 80px;
 }
 
@@ -145,14 +145,14 @@ section {
 }
 
 .container_ill {
-    width: 40%;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container_ill img{
-    width: 800px;
+    width: 600px;
 }
 
 /*2 блок*/
@@ -281,6 +281,10 @@ section {
     margin: 0;
 }
 
+.container_discount .container_ill img{
+    width: 400px;
+}
+
 .head_black {
     display: flex;
     justify-content: flex-start;
@@ -371,7 +375,6 @@ section {
 }
 
 .carts {
-    width: 95%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -396,9 +399,9 @@ section {
     margin-right: 30px;
 }
 
-.container_address .container_ill img{
-    width: 700px;
-}
+/*.container_address .container_ill img{*/
+/*    width: 700px;*/
+/*}*/
 
 /*футер*/
 
@@ -424,7 +427,6 @@ footer a, footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .main_foot {
@@ -456,14 +458,44 @@ footer a, footer p {
 }
 
 .icons {
-    width: 6%;
+    width: 10%;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+    .container_big {
+        width: 1320px;
+    }
+
+    .center{
+        width: 920px;
+    }
+
+    .container_best .center{
+        width: 920px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name{
+        font-size: 1.3rem;
+    }
+
+    .author{
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .container_big {
         width: 440px;
+    }
+
+    .center {
+        width: 300px;
+        flex-direction: column;
     }
 
     .nav {
@@ -487,10 +519,6 @@ footer a, footer p {
     .text_nav a {
         font-size: 1.7rem;
         padding-bottom: 10px;
-    }
-
-    .center {
-        flex-direction: column;
     }
 
     .container_head {
@@ -578,7 +606,6 @@ footer a, footer p {
     }
 
     .contacts {
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -589,10 +616,6 @@ footer a, footer p {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-
-    .carts {
-        width: 100%;
     }
 
     .main_foot {
