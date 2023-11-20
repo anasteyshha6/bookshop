@@ -29,7 +29,6 @@ section {
 /*1 блок*/
 
 .container_nav {
-    width: 100%;
     display: flex;
     margin-bottom: 133px;
     justify-content: center;
@@ -81,7 +80,6 @@ section {
 /*2 блок*/
 
 .container_cat {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +87,7 @@ section {
 }
 
 .center {
-    width: 100%;
+    width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
