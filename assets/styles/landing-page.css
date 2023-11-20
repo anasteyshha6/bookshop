@@ -479,6 +479,18 @@ footer a, footer p {
         align-items: center;
     }
 
+    .carts{
+        width: 53%;
+    }
+
+    .container_address .container_ill {
+        width: 200px;
+    }
+
+    .container_address .container_ill img{
+        width: 200px;
+    }
+
     .name{
         font-size: 1.3rem;
     }
