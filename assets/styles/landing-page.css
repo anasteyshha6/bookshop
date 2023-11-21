@@ -57,7 +57,7 @@ section {
 .text_nav a {
     color: #D62929;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: clamp(1.25rem, 1.3rem + -0.25vw, 1rem);
     transition: 0.2s;
 }
 
@@ -110,19 +110,19 @@ section {
 .head h1 {
     color: #2B46DD;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: clamp(1.25rem, 0.9rem + 1.75vw, 3rem);
     padding-bottom: 80px;
 }
 
 .head p {
     color: #2B46DD;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     padding-bottom: 80px;
 }
 
 .button_blue {
-    width: 282px;
+    width: clamp(12.5rem, 11.475rem + 5.125vw, 17.625rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +138,7 @@ section {
 }
 
 .button_blue a {
-    font-size: 1.4rem;
+    font-size: clamp(1.5625rem, 1.5625rem + 0vw, 1.5625rem);
     text-align: center;
     color: white;
 }
@@ -174,7 +174,7 @@ section {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    font-size: 3rem;
+    font-size: clamp(1.25rem, 0.9rem + 1.75vw, 3rem);
     color: black;
 }
 
@@ -195,7 +195,7 @@ section {
 .view_all a {
     color: #2B46DD;
     font-weight: 400;
-    font-size: 1.563rem;
+    font-size: clamp(0.9375rem, 0.8125rem + 0.625vw, 1.5625rem);
     text-decoration: underline;
     transition: 0.2s;
 }
@@ -206,6 +206,7 @@ section {
 }
 
 .four_books {
+    width: clamp(18.75rem, 5rem + 68.75vw, 87.5rem);;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -213,7 +214,7 @@ section {
 }
 
 .book {
-    width: 20%;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,7 +290,7 @@ section {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 50px;
-    font-size: 3rem;
+    font-size: clamp(1.25rem, 0.9rem + 1.75vw, 3rem);
     color: black;
 }
 
@@ -300,13 +301,14 @@ section {
 
 .black_p {
     width: 80%;
-    font-size: 2rem;
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     margin-bottom: 60px;
 }
 
 /*4 блок*/
 
 .container_genre {
+    width: clamp(18.75rem, 0rem + 93.75vw, 112.5rem);;
     display: flex;
     justify-content: space-between;
     margin-bottom: 168px;
@@ -351,6 +353,7 @@ section {
 /*5 блок*/
 
 .container_address {
+    width: clamp(18.75rem, 0rem + 93.75vw, 112.5rem);;
     display: flex;
     justify-content: center;
     margin-bottom: 168px;
@@ -374,6 +377,7 @@ section {
 }
 
 .carts {
+    width: clamp(18.75rem, 0rem + 93.75vw, 112.5rem);;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -387,7 +391,7 @@ section {
 }
 
 .cart_con p {
-    font-size: 1.5rem;
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
 }
 
 .container_address .icon {
@@ -582,25 +586,9 @@ footer a, footer p {
         margin-top: 30px;
     }
 
-    .text_nav a {
-        font-size: 1.7rem;
-        padding-bottom: 10px;
-    }
-
     .container_head {
         align-items: center;
         margin-bottom: 80px;
-    }
-
-    .head h1 {
-        text-align: center;
-        font-size: 3rem;
-        padding-bottom: 40px;
-    }
-
-    .head p {
-        text-align: center;
-        font-size: 1.6rem;
     }
 
     .container_ill {
@@ -619,10 +607,6 @@ footer a, footer p {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .view_all a {
-        font-size: 1.2rem;
     }
 
     .four_books {
