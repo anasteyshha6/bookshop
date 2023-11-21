@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+header {
+    background-color: #FFFCF6;
+}
+
 section {
     background-color: #FFFCF6;
 }
@@ -30,7 +34,6 @@ section {
 
 .container_nav {
     display: flex;
-    margin-bottom: 133px;
     justify-content: center;
     align-items: center;
 
@@ -87,6 +90,7 @@ section {
     justify-content: center;
     align-items: center;
     margin-bottom: 133px;
+    padding-top: 133px;
 }
 
 .center {
