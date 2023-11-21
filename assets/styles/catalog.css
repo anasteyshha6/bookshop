@@ -6,6 +6,7 @@
     box-sizing: border-box;
     border: none;
     outline: none;
+    font-family: 'On', sans-serif;
 }
 
 body {
@@ -13,7 +14,6 @@ body {
 }
 
 a {
-    font-family: 'On', sans-serif;
     text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ section {
 }
 
 .block_books {
-    width: 100%;
+    width: 1400px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -128,17 +128,13 @@ section {
 
 .four_books {
     width: 100%;
-    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    gap: 30px 0;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 40px;
 
-}
-
-.book {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .skin img {
@@ -157,7 +153,7 @@ section {
 
 .author {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #484848;
     margin-bottom: 5px;
 }
@@ -252,11 +248,8 @@ footer a, footer p {
         width: 920px;
     }
 
-    .container_best .center{
+    .block_books {
         width: 920px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .name{
@@ -266,59 +259,36 @@ footer a, footer p {
     .author{
         font-size: 1.2rem;
     }
+
+    .four_books{
+        gap: 30px 20px;
+    }
 }
 
-@media screen and (max-width: 900px){
-    .container_big{
+@media screen and (max-width: 900px) {
+    .container_big {
         width: 780px;
     }
 
     .center{
         width: 680px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
-    .container_best .center{
+    .block_books {
         width: 680px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 
     .name{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .author{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
-    .price p {
-        font-size: 1.1rem;
-    }
-
-    .red_but{
-        font-size: 1rem;
-    }
-
-    .blue_but{
-        font-size: 1rem;
-    }
-
-    .address{
-        width: 680px;
-    }
-
-    .black_p{
-        font-size: 1.5rem;
-    }
-
-    .container_address .container_ill img {
-        width: 400px;
+    .four_books{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 0;
     }
 }
 
@@ -327,9 +297,8 @@ footer a, footer p {
         width: 440px;
     }
 
-    .center {
+    .center{
         width: 300px;
-        flex-direction: column;
     }
 
     .nav {
@@ -355,105 +324,21 @@ footer a, footer p {
         padding-bottom: 10px;
     }
 
-    .container_head {
-        align-items: center;
-        margin-bottom: 80px;
+    .block_books {
+        width: 300px;
     }
 
-    .head h1 {
-        text-align: center;
-        font-size: 3rem;
-        padding-bottom: 40px;
+    .name{
+        font-size: 1.3rem;
     }
 
-    .head p {
-        text-align: center;
-        font-size: 1.6rem;
-    }
-
-    .container_ill {
-        width: 100%;
-    }
-
-    .container_ill img {
-        width: 100%;
-    }
-
-    .head_black {
-        text-align: center;
-    }
-
-    .view_all {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .view_all a {
+    .author{
         font-size: 1.2rem;
     }
 
-    .four_books {
-        flex-direction: column;
-    }
-
-    .book {
-        width: 60%;
-        margin-bottom: 30px;
-    }
-
-    .author {
-        font-size: 1.2rem;
-    }
-
-    .name {
-        font-size: 1.5rem;
-    }
-
-    .price p {
-        font-size: 1.5rem;
-    }
-
-    .container_discount .block_discount {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .black_p {
-        text-align: center;
-    }
-
-    .container_genre {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .genre {
-        width: 70%;
-    }
-
-    .address {
-        flex-direction: column;
-    }
-
-    .carts{
-        width: 400px;
-    }
-
-    .contacts {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contacts .head_black {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+    .four_books{
+        grid-template-columns: 1fr;
+        gap: 30px 0;
     }
 
     .main_foot {
@@ -476,5 +361,4 @@ footer a, footer p {
         width: 200px;
         margin-top: 30px;
     }
-
 }
