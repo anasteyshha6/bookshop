@@ -33,7 +33,7 @@ section {
 /*1 блок*/
 
 .container_form{
-    width: 500px;
+    width: clamp(18.75rem, 16.25rem + 12.5vw, 31.25rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@ section {
 }
 
 .str{
-    width: 270px;
+    width: clamp(12.5rem, 11.25rem + 6.25vw, 18.75rem);
     display: flex;
     justify-content: center;
     align-items: flex-start;

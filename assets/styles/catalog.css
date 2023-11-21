@@ -26,8 +26,6 @@ section {
     margin: 0 auto;
 }
 
-/*1 блок*/
-
 .container_nav {
     display: flex;
     margin-bottom: 133px;
@@ -57,7 +55,7 @@ section {
 .text_nav a {
     color: #D62929;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: clamp(1.25rem, 1.3rem + -0.25vw, 1rem);
     transition: 0.2s;
 }
 
