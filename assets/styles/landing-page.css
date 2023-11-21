@@ -377,7 +377,7 @@ section {
 }
 
 .carts {
-    width: clamp(18.75rem, 0rem + 93.75vw, 112.5rem);;
+    width: clamp(18.75rem, 10rem + 43.75vw, 62.5rem);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -385,6 +385,7 @@ section {
 }
 
 .cart_con {
+    width: clamp(18.75rem, 13.75rem + 25vw, 43.75rem);
     display: flex;
     align-items: center;
     margin-bottom: 50px;
